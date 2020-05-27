@@ -1,0 +1,10 @@
+# Readme
+
+This is a chrome extension to automatically close the zoom post attenedee tab. 
+
+## Why?
+In work from home life, I'm in 5 - 10 meetings a day, both internal and external. I often click on the link in my calendar and at the end of the day, realize a bunch of zoom tabs are left open in my browser. For some reason, this really irritated me. 
+
+## Installation
+Once the extension actually get's approved, you can install it there, and a link will be provided here. 
+For now, you can download this repo, and install in chrome using the "load unpacked" button [here](chrome://extensions/).
