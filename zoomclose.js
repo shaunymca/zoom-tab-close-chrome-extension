@@ -9,6 +9,8 @@ function removeTab(tabId) {
   }
 }
 
-chrome.webNavigation.onCompleted.addListener(function(e) {
-  removeTab(e.tabId);
-}, {url: [{urlMatches : 'zoom.us/postattendee'}]});
+chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
+	if (changeInfo.url == 'https://zoom.us/postattendee') {
+		removeTab(tabId)
+	}
+}); 
